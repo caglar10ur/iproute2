@@ -25,6 +25,7 @@ Group: Applications/System
 #URL:    http://developer.osdl.org/dev/iproute2/
 Source: iproute2-%{version}.tar.bz2
 Patch1: gre.patch
+Patch2: compile.patch
 License: GNU GPL
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
 BuildPrereq: tetex-latex tetex-dvips psutils linuxdoc-tools db4-devel bison flex
@@ -37,6 +38,7 @@ capabilities of the Linux 2.4.x and 2.6.x kernel.
 %prep
 %setup -q -n iproute2-%{version}
 %patch1 -p1
+%patch2 -p1
 
 %build
 make
