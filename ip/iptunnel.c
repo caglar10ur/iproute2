@@ -22,6 +22,7 @@
 #include <net/if_arp.h>
 #include <linux/ip.h>
 #include <linux/if_tunnel.h>
+#include <linux/if_ether.h>
 
 #include "rt_names.h"
 #include "utils.h"

@@ -1,10 +1,10 @@
 #
-# $Id: iproute.spec 18308 2010-06-18 18:54:33Z caglar $
+# $Id$
 #
-%define url $URL: svn+ssh://svn.planet-lab.org/svn/iproute2/trunk/iproute.spec $
+%define url $URL$
 
 %define name iproute
-%define version 2.6.34
+%define version 2.6.37
 %define taglevel 0
 
 %define release %{taglevel}%{?pldistro:.%{pldistro}}%{?date:.%{date}}
